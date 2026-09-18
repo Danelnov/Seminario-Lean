@@ -1,33 +1,11 @@
 import VersoSlides
+import Slides.Intro
+import Slides.S1.C1_Comandos
 
 open VersoSlides
 
-#doc (Slides) "My Presentation" =>
+#doc (VersoSlides.Slides) "My Presentation" =>
 
-# Welcome
+{include 0 Slides.Intro}
 
-This is a presentation built with
-[`verso-slides`](https://github.com/leanprover/verso-slides).
-
-# Lean Code
-
-Here is a Lean code block:
-
-```lean
-def fib : Nat → Nat
-  | 0 => 0
-  | 1 => 1
-  | n + 2 => fib (n + 1) + fib n
-```
-
-```lean
-#eval fib 10
-```
-
-The function {lean}`fib` computes Fibonacci numbers.
-
-# Thank You
-
-:::fragment
-Questions?
-:::
+{include 0 Slides.S1.C1_Comandos}
