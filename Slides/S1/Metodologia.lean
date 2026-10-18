@@ -15,7 +15,7 @@ backgroundColor := "#5B0275"
 - *(2 de noviembre) Más tácticas.* Desarrollaremos más demostraciones, con nuevas tácticas y ejemplos más elaborados.
 :::
 
-# EJERCICIO
+# EJERCICIOS
 
 %%%
 backgroundColor := "#4d7e65"
@@ -30,6 +30,12 @@ Cada vez que se explique un concepto, haremos ejercicios cortos. Se identifican 
 - Si se atascan, pregunten: para eso están los ejercicios.
 :::
 
-# Repositorio
+# EJERCICIO
+
+%%%
+backgroundColor := "#4d7e65"
+%%%
+
+Entrar al siguiente repositorio:
 
 [github.com/Danelnov/Seminario-Lean](github.com/Danelnov/Seminario-Lean)
