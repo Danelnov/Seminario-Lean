@@ -1,26 +1,8 @@
-# Slides
+# Seminario de Lean
 
-This template creates a [`reveal.js`](https://revealjs.com) slide presentation using
-[verso-slides](https://github.com/leanprover/verso-slides). It includes a title slide and a slide
-that demonstrates Lean code with an info panel.
+## Semana 1
 
-## Building
-
-To build the slides, run:
-```
-$ lake exe generate-slides
-```
-
-The output is written to the `_slides/` directory. Run a local web server to view the presentation.
-
-## More Features
-
-See the [`verso-slides` demo file](https://github.com/leanprover/verso-slides/blob/main/Demo.lean) for
-a comprehensive showcase of all available features, including:
-
-* Treating sections of code as [`reveal.js` fragments](https://revealjs.com/fragments/)
-* Fragment animations (block and inline)
-* Speaker notes
-* Custom slide backgrounds and transitions
-* Vertical slides
-* Code blocks in other languages using `reveal.js`'s built-in syntax highlighting
+- *Problemas*
+  - [Problem Set 1](https://live.lean-lang.org/#codez=PQWgUAVABAogUjASgYQJJoPJQIwC4xioB2ALgKakCGUZAzgMYBOAlgEbONQkCuURA9gFtWjMlAAmFEo34SxAG0q0o9Ic3mLlAN0r0At0qgAHSo0phVgo%2FLIlTNeVFqV53cfwB0YEMAIBiMh1HACIACX5FABooAE9ZWn4Y4KgAahSoZOCCUEhYBBR0VCwAJnwwAFl%2BcWYAM2Z6akUVfiJq%2BmYAZ6IoAAoAZigAXkGoABYASmNTagBHbjEyR1Fabnk7dzktefkdMGCAZRaoZgBzbhc6YK8fMACg45qoAeGxrgALCgzD7tPzm1pkotaGJggA5eJHX4XAHZcDQeBINCYJ5lZBCay2aiLJy%2FZhSMSseT8OYLBgsdgUDZNWi4%2FHGGRGfg09pdMoABWmXCqsiIAC%2FBGQZDRSILZAADIhi6LY%2FFCiVQaA9brpbDjMU0ZQmRhgHp0OTtRjSgAezFo5Cg3G6svFAGt1XZHCSoPLFcqcJMRsUFVA7eMvGA2aa7LgoABVZxQHQsSiEvWSLjMRnO4gkMXXXx%2Begfeg2qAAFUY8zAQA)
+  - [Problem Set 2](https://live.lean-lang.org/#codez=PQWgUAVABAogUjASgYQJJoPJQIwC4xgAiApgGYCWAdsVADYCGUAxgPaUDOALvZZzYAPAUAJ50ArsQDmLZgAtiAR3GN2oqJ3IAHFgDowAGXFSoAEzJUaxSlBacATowBu9W%2BXoAjWgKjAoAJmFQgj4AzLogwARgoJCwCCjoqFi%2B%2BERm1FCilIykmUzkAM9WtAwAtvTGjAAGzsT0lVCKNEz0tEyinlDEtFAAh7a1JjSZUP1M3JQS7Tpg4ZHR0PBIaJhQwSkAglAazuq2g3TZuQVW1f11gxTpmYeUeWwN4swtbR1dvWf7w23l9sYsMxE5uAFnFlokoAAWFIkS5DLJQHK3Y4PJrPdoWbp9AamDJWOzkHoTKb7Bh%2FdhQegAGigbjAImGhMmtGkgA7gXRgAD6AAVyFx6ByoHpsixbCV2owJJZiPZuqZMR8ccN8YzicR2GAoFAABSMADrNKg%2BvYVCgLIAlN4%2FAQuc5GAwEUdClB2JYWNTROpaOQAF5VABizPonG0xso9Xt326Ls6TlookYlhG5Vc1HVszAplIFLOHPxPCZ0lwAF4oAAGIExRbxFYAVmhaThNzyTsazB6rXRnXl2JozPJxsm5EsfHJ6i05JxyqJfY1UBAUEQxDG0k1q61AE5SwAGqASX4sM2z%2BcwRTkWg9Pi2aRagBs293%2B%2FYh%2FTBHmsSWCSwN42Wx25D2OL2oizYnPQGhes0tgcmSlTUpm5i4k2yKtmBXqtt8djSA4S5qmA1wOkiTqVFmuBQAAckGUCAEmE5FBpUYSApmFLgeQkHQSw5JaiRtGcNRPEWlqAAeUCkRRnAWqJlHFgi2pZoJh4ViCH4rAA7CkADKAyVDq1JuBJPGGjx9QiC6PBQMRIkGTRYnGeZEiWWJfE2XBaT%2FohBEgWAramA44i0E45lcRS1L2Xp9EApEUTAu%2B1bggAHPWlxufhwHIY8nAsCUjYeciFmSbx1mUYVnC2RGbAOEOtjcBSiFgKlRH2flhmOcV4UvlFlagp%2BUDrolVDJfC9VWK2GVZe5Q3mdxjn6i1RkBGVlAVdK3BgIwKWOicjVWdtNkMWAQA)
+  

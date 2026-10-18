@@ -57,14 +57,14 @@ backgroundColor := "#4d7e65"
 
 ::::attr (style := "text-align: left")
   :::fitText
-  Modifica la condición (3 == 4) para que el resultado devuelva "Son iguales".
+  Modifica la condición (3 = 4) para que el resultado devuelva "Son iguales".
   :::
 ::::
 
 ```lean -panel -stretch
-#eval if 3 == 4 then "Son iguales" else "No son iguales"
+#eval if 3 = 4 then "Son iguales" else "No son iguales"
 -- !fragment
-#eval if 3 == 3 then "Son iguales" else "No son iguales"
+#eval if 3 = 3 then "Son iguales" else "No son iguales"
 ```
 
 
