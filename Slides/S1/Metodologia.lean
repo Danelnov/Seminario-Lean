@@ -38,4 +38,4 @@ backgroundColor := "#4d7e65"
 
 Entrar al siguiente repositorio:
 
-[github.com/Danelnov/Seminario-Lean](github.com/Danelnov/Seminario-Lean)
+[github.com/Danelnov/Seminario-Lean](https://github.com/Danelnov/Seminario-Lean)
