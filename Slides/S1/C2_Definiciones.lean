@@ -234,6 +234,21 @@ def aplicar_dos (f : Nat → Nat) (x : Nat) : Nat := f (f x)
 #eval aplicar_dos (fun x => x*x) 2
 ```
 
+# Toda función es una anónima
+
+En las bases fundamentales de lean toda función es en realidad una función anonima.
+
+```lean -panel -stretch
+def descuento' : Nat → Nat → Nat :=
+  fun porcentaje precio =>
+    precio - precio * porcentaje / 100
+
+-- !fragment
+def desceunto'' : Nat → Nat → Nat :=
+  fun porcentaje => fun precio =>
+    precio - precio * porcentaje / 100
+```
+
 # EJERCICIO
 
 %%%
@@ -262,10 +277,10 @@ def aplicar_cuatro' (f : Nat → Nat) (x : Nat) : Nat :=
 # Pares ordenados
 
 :::attr (style := "text-align: left; font-size: 24px;")
-  En Lean, el tipo `A × B` representa el tipo de pares ordenados, donde su primera
-  componente es de tipo `A` y su segunda componente es de tipo `B`.
+  En Lean, el tipo $`A \times B` representa el tipo de pares ordenados, donde su primera
+  componente es de tipo $`A` y su segunda componente es de tipo $`B`.
 
-  Un término de `A × B` tiene la forma `(a, b)`, donde `a : A` y `b : B`. Si `p : A × B`,
+  Un término de $`A \times B` tiene la forma $`(a, b)`, donde $`a : A` y $`b : B`. Si `p : A × B`,
   entonces `p.1 : A` es la primera componente de `p` y `p.2` es su segunda componente.
 :::
 
