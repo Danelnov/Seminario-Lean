@@ -17,7 +17,7 @@
 
 ## Sesión 3
 
-3 de nomviembre de 7:00 a 9:00 p.m.
+3 de Noviembre, de 7:00 a 9:00 p.m.
 
 ## Lista de Grabaciones
 
