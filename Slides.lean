@@ -5,6 +5,7 @@ import Slides.S1.C2_Definiciones
 import Slides.S1.C0_introduccion
 import Slides.S1.Metodologia
 import Slides.S2.C1_Intro
+import Slides.S2.C0_CurryHoward
 
 open VersoSlides
 
@@ -31,5 +32,7 @@ transition := "zoom"
 backgroundColor := "#2d1b69"
 transition := "zoom"
 %%%
+
+{include 0 Slides.S2.C0_CurryHoward}
 
 {include 0 Slides.S2.C1_Intro}
