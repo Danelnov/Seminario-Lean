@@ -4,6 +4,7 @@ import Slides.S1.C1_Comandos
 import Slides.S1.C2_Definiciones
 import Slides.S1.C0_introduccion
 import Slides.S1.Metodologia
+import Slides.S2.C1_Intro
 
 open VersoSlides
 
@@ -24,3 +25,11 @@ transition := "zoom"
 {include 0 Slides.S1.C1_Comandos}
 
 {include 0 Slides.S1.C2_Definiciones}
+
+# Semana 2
+%%%
+backgroundColor := "#2d1b69"
+transition := "zoom"
+%%%
+
+{include 0 Slides.S2.C1_Intro}
